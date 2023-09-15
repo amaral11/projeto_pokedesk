@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <script src="https://kit.fontawesome.com/352a62d5b3.js"></script>
+
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__icon">
+                <img src="img/img-pokeball.png" alt="Pokeball Icon">
+                <span>Pokedex</span>
+            </div>
+            <div class="header__searchBox">
+                <input type="search" class="search" id="search" placeholder="Pokemon name">
+                <div class="icon">
+                    <span class="fa-solid fa-magnifying-glass"></span>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="header__profile">
+                <span class="fa-solid fa-user"></span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <ul id="pokedex"></ul>
+            <button onclick="scrollToTop()" class="scroll-to-top"><i class="fa-solid fa-angle-up"></i></button>
+        </div>
+    </section>
+    <aside>
+    </aside>
+   <!-- <footer>
+        <p>Bruno Amaral</p>
+    </footer>-->
+    <div class="wrapper">
+        <div class="loader">
+            <img src="img/img-pokeball.png" alt="Pokebola">
+            <p>Acessando...</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
