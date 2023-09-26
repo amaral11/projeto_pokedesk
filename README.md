@@ -1,1 +1,1 @@
-Projeto Pokedesk
+Projeto Pokedesk em HTML5, CSS3 e JavaScript.
